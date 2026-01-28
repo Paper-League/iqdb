@@ -56,4 +56,8 @@ void SqliteDB::removeImage(postId post_id) {
   storage_.remove_all<Image>(where(c(&Image::post_id) == post_id));
 }
 
+size_t SqliteDB::countImage() {
+  return storage_.count<Image>();
+}
+
 }

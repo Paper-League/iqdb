@@ -66,6 +66,8 @@ public:
   // Call a function for each image in the database.
   void eachImage(std::function<void (const Image&)>);
 
+  size_t countImage();
+
 private:
   // The SQLite database.
   Storage storage_;

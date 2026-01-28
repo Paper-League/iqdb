@@ -1,0 +1,10 @@
+{
+    "cmake.debugConfig": {
+        "args": [
+            "http",
+            "0.0.0.0",
+            "5588",
+            "iqdb.db"
+        ]
+    },
+}

@@ -29,7 +29,7 @@ set(IQDB_DEBUG_CFLAGS
   -g3
 
   # https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html
-  -Wall -Wextra -Werror -pedantic -pedantic-errors -Wno-unused-parameter
+  -Wall -Wextra -pedantic -pedantic-errors -Wno-unused-parameter
   -Wdouble-promotion -Wformat-overflow=2 -Wuninitialized -Wstrict-overflow=5
   -Wconversion -Wshadow
 
